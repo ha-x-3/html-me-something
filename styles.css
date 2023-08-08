@@ -3,22 +3,30 @@ body {
   margin: 8px;
   display: block;
   font-family: Helvetica, sans-serif;
-  background-color: lemonchiffon;
+  background-color: rgb(218, 223, 232);
   width: 100%;
+  color: white;
+  font-size: 1rem;
+}
+
+header {
+  color: black;
 }
 
 #mainHeading {
-  color: red;
+  color: rgb(33, 91, 134);
   text-align: center;
+  text-shadow: 0 1px 5px rgb(121, 130, 130);
+  font-size: 2.5rem;
 }
 
 .funParagraph {
-  color: green;
+  color: aliceblue;
   text-align: center;
 }
 
 a {
-  color: orange;
+  color: rgb(38, 81, 106);
 }
 
 ul {
@@ -34,7 +42,7 @@ li {
 article {
   width: 80vw;
   min-width: 700px;
-  background-color: lightskyblue;
+  background-color: rgb(16, 59, 91);
   margin: auto;
   text-align: center;
   border-radius: 8px;
@@ -42,21 +50,24 @@ article {
 }
 
 h2 {
-  border: black solid 1px;
-  padding: 10px;
+  border: white ridge 1px;
+  padding: 20px;
   border-radius: 8px;
-  max-width: 50vw;
+  max-width: 42vw;
   margin: 15px auto;
+  font-size: 1.65rem;
 }
 
 img {
   border-radius: 8px;
+  box-shadow: 0 0 25px rgb(121, 130, 130);
 }
 
 p {
-  max-width: 60vw;
-  margin: 15px auto;
+  max-width: 42vw;
+  margin: 15px auto 25px auto;
   text-align: justify;
+  font-size: 1.2rem;
 }
 
 #footer {
@@ -65,4 +76,13 @@ p {
 
 .footer {
   padding: 8px;
+  color: black;
+}
+
+aside {
+  font-weight: bold;
+}
+
+aside img {
+  border-radius: 50%;
 }
